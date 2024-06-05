@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduXR Innovate</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">EduXR Innovate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#vision">Company's Vision</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contribute">Contribute to Cause</a></li>
+                <li class="nav-item"><a class="nav-link" href="#learn">Learn to Create</a></li>
+                <li class="nav-item"><a class="nav-link" href="#become-creator">Become Creator</a></li>
+                <li class="nav-item"><a class="nav-link" href="#applab">AppLab</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+
+        <div id="vision" class="panel">
+            <div class="background-image vision" style="background-image: url('vision.jpg');"></div>
+            <div class="content">
+                <h2>Company's Vision</h2>
+                <p>At EduXR Innovate, we believe in revolutionizing education through immersive WebXR experiences. Our
+                    goal is to make complex concepts tangible and accessible, enhancing learning and fostering
+                    innovation.</p>
+            </div>
+        </div>
+
+        <div id="contribute" class="panel">
+            <div class="background-image contribute" style="background-image: url('contribute.jpg');"></div>
+            <div class="content">
+                <h2>Contribute to the Cause</h2>
+                <p>Support our mission to transform education. <a href="https://wa.me/+918921358979"
+                        class="btn btn-primary" target="_blank">Donate now</a> and be a part of the change.</p>
+            </div>
+        </div>
+
+
+        <div id="learn" class="panel">
+            <div class="background-image learn" style="background-image: url('learn.jpg');"></div>
+            <div class="content">
+                <h2>Learn How You Can Make Such an Experience</h2>
+                <p>Join our free course and learn how to create immersive WebXR educational experiences. <a
+                        href="https://www.youtube.com/wonderlandengine" class="btn btn-primary">Start Learning</a></p>
+            </div>
+        </div>
+
+        <div id="become-creator" class="panel">
+            <div class="background-image creator" style="background-image: url('creator.jpg');"></div>
+            <div class="content">
+                <h2>Become a Creator</h2>
+                <p>Share your expertise and creativity with our community. Provide a link to your WebXR experience and
+                    help
+                    expand our library of educational content.</p>
+                <form action="mailto:xyz@eduxr.com" method="post">
+                    <div class="form-group">
+                        <label for="creator-name">Name:</label>
+                        <input type="text" id="creator-name" name="creator-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-details">Contact Details:</label>
+                        <input type="text" id="contact-details" name="contact-details" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience-link">WebXR Experience Link:</label>
+                        <input type="url" id="experience-link" name="experience-link" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <p>Please remember your unique code provided after submission.</p>
+            </div>
+        </div>
+
+
+        <div id="applab" class="panel">
+            <div class="background-image applab" style="background-image: url('applab.jpg');"></div>
+            <div class="content">
+                <h2>AppLab</h2>
+                <iframe src="https://nstcg32.netlify.app/" allow="xr-spatial-tracking" width="100%" height="500px"
+                    class="border rounded shadow-sm"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Contact us at: info@eduxrinnovate.com</p>
+    </footer>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
